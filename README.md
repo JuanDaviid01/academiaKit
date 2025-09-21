@@ -1,1 +1,1 @@
-# schoolManagementPython
+# academiaKit
