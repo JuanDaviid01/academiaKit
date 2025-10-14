@@ -1,4 +1,4 @@
-from academiaKit.core.mixins import AdminFieldsMixin
+from core.mixins import AdminFieldsMixin
 from rest_framework import serializers # type: ignore
 from .models import Institution, Campus, Building, Room
 

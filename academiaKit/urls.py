@@ -29,7 +29,8 @@ urlpatterns = [
     path("api/v1/auth/refresh/", TokenRefreshView.as_view(),    name="token_refresh"),
     path("api/v1/auth/verify/",  TokenVerifyView.as_view(),     name="token_verify"),
 
-    path("api/v1/", include("accounts.urls")),  # <-- monta las rutas de la app
+    path("api/v1/", include("accounts.urls")),  
+    path("api/v1/orgs/", include("orgs.urls")),
 ]
 
 
